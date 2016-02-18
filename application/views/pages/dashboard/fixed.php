@@ -215,12 +215,12 @@
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             <li class="treeview <?php if($pages=='home') {echo "active";}else echo "";?>">
-              <a href="#">
+              <a href="<?php echo base_url(); ?>pages/homepage">
                 <i class="fa fa-dashboard"></i> <span>Dashboard</span>
               </a>
             </li>
             <li class="treeview <?php if($pages=='planning') {echo "active";}else echo "";?>">
-              <a href="#">
+              <a href="<?php echo base_url(); ?>pages/planning">
                 <i class="fa fa-calendar"></i>
                 <span>Planning</span>
                 <!-- <span class="label label-primary pull-right">4</span> -->

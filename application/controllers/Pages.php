@@ -15,7 +15,7 @@ class Pages extends CI_Controller {
 
 
 			// $this->_landing();
-			$this->_home();
+			$this->homepage();
 		}
 
 	}
@@ -41,7 +41,7 @@ class Pages extends CI_Controller {
 		}
 
 	}
-	public function _home(){
+	public function homepage(){
 		$data['pages']="home";
 		$this->load->view('pages/dashboard/fixed',$data);
 		$this->load->view('pages/dashboard/content',$data);
@@ -49,7 +49,7 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/dashboard/end');
 
 	}
-	public function _planning(){
+	public function planning(){
 		$data['pages']="planning";
 		$this->load->view('pages/dashboard/fixed',$data);
 		$this->load->view('pages/planning/content',$data);
