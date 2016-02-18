@@ -42,10 +42,18 @@ class Pages extends CI_Controller {
 
 	}
 	public function _home(){
-		$this->load->view('pages/dashboard/fixed');
-		$this->load->view('pages/dashboard/content');
-		// $this->load->view('pages/dashboard/footer');
+		$data['pages']="home";
+		$this->load->view('pages/dashboard/fixed',$data);
+		$this->load->view('pages/dashboard/content',$data);
+		$this->load->view('pages/dashboard/footer');
 		$this->load->view('pages/dashboard/end');
 
+	}
+	public function _planning(){
+		$data['pages']="planning";
+		$this->load->view('pages/dashboard/fixed',$data);
+		$this->load->view('pages/planning/content',$data);
+		$this->load->view('pages/dashboard/footer');
+		$this->load->view('pages/dashboard/end');
 	}
 }

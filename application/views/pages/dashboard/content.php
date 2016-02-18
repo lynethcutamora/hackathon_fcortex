@@ -5,15 +5,15 @@
             <div class="col-md-7">
               <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h4 class="box-title">Sample</h4>
+                  <h4 class="box-title"></h4>
                   <!-- <div class="box-tools pull-right">
                     <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
                     <button class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
                   </div> -->
                 </div>
                 <div class="box-body">
-                  <span class="pull-left">Start creating your amazing application!</span>
-                  <img src="<?php echo base_url().'images/mom.jpg' ?>" class="pull-right">
+                  <span class="pull-left col-md-8"><h2>Personal Finance is only <font color="red">20%</font> head knowledge. It's <font color="red">80%</font> behavior!</h2><span class="pull-right"><h4><i>-Dave Ramsey</i></h4></span><br/><hr/></span>
+                  <img src="<?php echo base_url().'images/mom.jpg' ?>" class="pull-right col-md-4">
                 </div><!-- /.box-body -->
               </div>
             </div>

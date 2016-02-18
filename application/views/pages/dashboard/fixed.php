@@ -214,12 +214,12 @@
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
-            <li class="treeview active">
+            <li class="treeview <?php if($pages=='home') {echo "active";}else echo "";?>">
               <a href="#">
                 <i class="fa fa-dashboard"></i> <span>Dashboard</span>
               </a>
             </li>
-            <li class="treeview">
+            <li class="treeview <?php if($pages=='planning') {echo "active";}else echo "";?>">
               <a href="#">
                 <i class="fa fa-calendar"></i>
                 <span>Planning</span>
