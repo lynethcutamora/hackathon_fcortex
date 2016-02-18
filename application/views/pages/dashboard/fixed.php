@@ -35,7 +35,7 @@
   </head>
   <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
   <!-- the fixed layout is not compatible with sidebar-mini -->
-  <body class="hold-transition skin-green fixed sidebar-mini">
+  <body class="hold-transition skin-purple fixed sidebar-mini">
     <!-- Site wrapper -->
     <div class="wrapper">
 
@@ -45,7 +45,7 @@
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><img src="<?php echo base_url(); ?>images/Plogo.png" style="width:50%;"></span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><img src="<?php echo base_url(); ?>images/fcortex_logo.png" style="width:50%;"></span>
+          <span class="logo-lg"><img src="<?php echo base_url(); ?>images/fcortex.png" style="width:50%;"></span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
@@ -224,11 +224,6 @@
                 <i class="fa fa-calendar"></i>
                 <span>Planning</span>
                 <!-- <span class="label label-primary pull-right">4</span> -->
-              </a>
-            </li>
-            <li>
-              <a href="../widgets.html">
-                <i class="fa fa-user"></i><span>&nbsp;Accounts</span> <!-- <small class="label pull-right bg-green">new</small> -->
               </a>
             </li>
             <li class="treeview">
